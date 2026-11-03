@@ -30,7 +30,7 @@ jobs:
       - name: Descomprimir proyecto
         run: |
           mkdir -p project
-          unzip -q MiPrimerCiclo_V5.0_Corregido_Estructura.zip -d project
+          unzip -q MiPrimerCiclo_V5.1_Navegacion_Corregida.zip -d project
           test -f project/settings.gradle.kts
 
       - name: Compilar APK
